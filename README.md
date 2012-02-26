@@ -1,6 +1,8 @@
 #Custom SQL Server Reporting Services ReportViewer.aspx page
 
 ##Introduction
+Blog post can be [found here] (http://insomniacgeek.com/how-to-add-a-clear-button-to-sql-server-reporting-services-ssrs/ "InsomniacGeek")  
+
 If you ever had the need to add a clear / reset button to your standard SQL Server Reporting Services report viewer, here’s a way to do it. Normally when reports are displayed, they are piped through the ReportViewer.aspx page that comes with SSRS. This page hosts the Reporting Server host component, and adds text boxes, radio buttton etc. based on the number of parameters you have in your report.
 
 ![Report Viewer Page with Clear Button](https://github.com/MagnusJohansson/CustomSSRSReportViewer/raw/master/images/ReportViewerWithClearButton.png)
